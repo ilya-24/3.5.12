@@ -6,6 +6,6 @@ public class Main {
         System.out.println("Введите адрес электронной почты: ");
         String email = scan.nextLine();
         String[] domain = email.split("@");
-        System.out.println(domain[1]);
+        System.out.println("Ваш домен: " +  domain[1]);
     }
 }
